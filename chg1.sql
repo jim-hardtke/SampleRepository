@@ -1,3 +1,3 @@
 set echo on
-spool Report_chg1.rpt
+spool Report_Chg1.rpt
 select name from v$database;
