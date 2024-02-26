@@ -1,1 +1,0 @@
-${{ORACLE_HOME}}/expdp ${{DB_USER}}\/$DB_PASSWORD@${{ORACLE_SID}} schemas=HR TABLES=EMPLOYEES directory=${{DATA_PUMP_DIR}} dumpfile=${{DATA_PUMP_FILE}}.dmp
