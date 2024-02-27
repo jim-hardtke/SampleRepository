@@ -1,1 +1,1 @@
-select 3 from dual;
+select 7 from dual;
