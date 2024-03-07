@@ -1,1 +1,1 @@
-select 999 from dual;
+select 999 from dual77;
