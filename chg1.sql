@@ -1,3 +1,3 @@
 set echo on
 spool Report_Chg1.rpt
-select name, 1 from v$database;
+select name, "chg1000" from v$database;
