@@ -1,4 +1,4 @@
 set echo on
 spool Report_Chg1.rpt
 select 1 from dual;
-select name, "chg1003" from v$database;
+select name, "chg1004" from v$database;
