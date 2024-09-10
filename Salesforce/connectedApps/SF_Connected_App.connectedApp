@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ConnectedApp xmlns="http://soap.sforce.com/2006/04/metadata">
+    <contactEmail>vivek.vanka@flexagon.com</contactEmail>
+    <label>SF Connected App</label>
+    <oauthConfig>
+        <callbackUrl>http://localhost:1717/OauthRedirect</callbackUrl>
+        <certificate>MIIDgzCCAmsCFC/X12rOhOcbHqGSHumC9jJmiUZRMA0GCSqGSIb3DQEBCwUAMH4xCzAJBgNVBAYTAlVTMQswCQYDVQQIDAJXSTEMMAoGA1UEBwwDR1JCMREwDwYDVQQKDAhGbGV4YWdvbjELMAkGA1UECwwCU0YxCzAJBgNVBAMMAlNGMScwJQYJKoZIhvcNAQkBFhh2aXZlay52YW5rYUBmbGV4YWdvbi5jb20wHhcNMjQwNjEwMTg1ODIwWhcNMjUwNjEwMTg1ODIwWjB+MQswCQYDVQQGEwJVUzELMAkGA1UECAwCV0kxDDAKBgNVBAcMA0dSQjERMA8GA1UECgwIRmxleGFnb24xCzAJBgNVBAsMAlNGMQswCQYDVQQDDAJTRjEnMCUGCSqGSIb3DQEJARYYdml2ZWsudmFua2FAZmxleGFnb24uY29tMIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEA0x1h3BHGAfGCqGvnEWYX4bOPMTCtO3j6f+eCp5upjv57Eo54mgcZPk0G8ux1+I94FJsmisWl5+5yjPMRRuh0nhH3yJxR1aBiZN7YGzeRVOpSLpXGaRq48vquKNZU+66YFGO4iChnNZEvPFSxhgfN/IXxksFBMOrzzb/4L3s1JWYuhmAXm6Y8xHew01DUbOX7rQkAxbheiswfGYo2636coPdHQRdREyrPvU/x2REN3wyT6uoTPW77Qvvbe2g2+croIs/gUYs41yumGO71xn0mm+yUtbcR1b3Oz+X08CAWREFraYepPi7d4zSRGOPLJ2BzNcbB/PoaxgWkosuy52F4bQIDAQABMA0GCSqGSIb3DQEBCwUAA4IBAQAXeWFLsirCbBbzmrrQfbmaZMoXz+8j6JH37Necq91AgSfzxju8m+cSVCAFLOYaw1zEuZbntLPQojYLWzZwf5Q/aObKh7ksUSlzrzeBSSUEDXAI1yZkWaU+1tBWv6G+2P7EarHTXYV9DIRVFISvGLTiVPKdnoJIXuV8SchDyesJbEOLbQJ7kEMOWn+YYAwp/6bV033Gh+hIzZfSBpeuv2hFbWcO2haaFeo2Ye2GGr1iAIDwEV3xIecHF74SYpSrD5v4eaMZNh/BS6WiMp9W/3BT3M6Niujw9wcs/oQUGZ7Vk7SbSr79pCMB9Hd3aZuWwV21ZvD25Q4mB0nI6JMBJwjl</certificate>
+        <consumerKey>3MVG9i1HRpGLXp.pB_VNJYhNFenaFESHnEjgIcpY9TPJJXnCwidxgIl3BO82tlqrw9YKUXO0piitqnytb3F0D</consumerKey>
+        <isAdminApproved>true</isAdminApproved>
+        <isClientCredentialEnabled>true</isClientCredentialEnabled>
+        <isCodeCredentialEnabled>true</isCodeCredentialEnabled>
+        <isCodeCredentialPostOnly>false</isCodeCredentialPostOnly>
+        <isConsumerSecretOptional>false</isConsumerSecretOptional>
+        <isIntrospectAllTokens>false</isIntrospectAllTokens>
+        <isNamedUserJwtEnabled>false</isNamedUserJwtEnabled>
+        <isSecretRequiredForRefreshToken>true</isSecretRequiredForRefreshToken>
+        <scopes>Api</scopes>
+        <scopes>Web</scopes>
+        <scopes>RefreshToken</scopes>
+    </oauthConfig>
+    <oauthPolicy>
+        <ipRelaxation>BYPASS</ipRelaxation>
+        <refreshTokenPolicy>specific_lifetime:30:DAYS</refreshTokenPolicy>
+    </oauthPolicy>
+    <profileName>Standard Platform User</profileName>
+    <profileName>Custom: Sales Profile</profileName>
+    <profileName>Custom: Marketing Profile</profileName>
+    <profileName>Read Only</profileName>
+    <profileName>Solution Manager</profileName>
+    <profileName>Marketing User</profileName>
+    <profileName>System Administrator</profileName>
+    <profileName>Standard User</profileName>
+    <profileName>Contract Manager</profileName>
+    <profileName>Custom: Support Profile</profileName>
+    <profileName>Customer Community Login User</profileName>
+    <profileName>Authenticated Website</profileName>
+    <profileName>Work.com Only User</profileName>
+    <profileName>Customer Portal Manager Custom</profileName>
+    <profileName>Identity User</profileName>
+    <profileName>Customer Community Plus User</profileName>
+    <profileName>Silver Partner User</profileName>
+    <profileName>High Volume Customer Portal</profileName>
+    <profileName>Gold Partner User</profileName>
+    <profileName>Customer Portal Manager Standard</profileName>
+    <profileName>Force.com - App Subscription User</profileName>
+    <profileName>Customer Community Plus Login User</profileName>
+    <profileName>Partner App Subscription User</profileName>
+    <profileName>External Identity User</profileName>
+    <profileName>Partner Community User</profileName>
+    <profileName>Partner Community Login User</profileName>
+    <profileName>Customer Community User</profileName>
+    <profileName>Force.com - Free User</profileName>
+    <profileName>Chatter Moderator User</profileName>
+    <profileName>Chatter Free User</profileName>
+    <profileName>Chatter External User</profileName>
+    <profileName>High Volume Customer Portal User</profileName>
+    <profileName>Authenticated Website</profileName>
+    <profileName>Analytics Cloud Security User</profileName>
+    <profileName>Analytics Cloud Integration User</profileName>
+    <profileName>Cross Org Data Proxy User</profileName>
+    <profileName>Salesforce API Only System Integrations</profileName>
+    <profileName>Identity User2</profileName>
+    <profileName>Identity User3</profileName>
+    <profileName>Flex User</profileName>
+    <profileName>FlexDeploy User</profileName>
+    <profileName>Minimum Access - Salesforce</profileName>
+    <profileName>FlexDeploy AdminUser</profileName>
+    <profileName>FlexDeploy ReadOnly</profileName>
+    <profileName>FlexDeploy Lead</profileName>
+    <profileName>FlexDeploy Operator</profileName>
+    <profileName>FlexDeploy Manager</profileName>
+    <profileName>FlexDeploy Service User</profileName>
+    <profileName>FlexDeploy Monitor User</profileName>
+    <profileName>FlexDeploy Suer Admin</profileName>
+    <profileName>FlexDeploy EBSLead</profileName>
+    <profileName>FlexDeploy Integration</profileName>
+    <profileName>FlexDeploy QA</profileName>
+    <profileName>testProfile310</profileName>
+    <profileName>FlexDeploy Service Profile</profileName>
+    <profileName>External Apps Login User</profileName>
+    <profileName>Flex Lead</profileName>
+    <profileName>B2B Reordering Portal Buyer Profile</profileName>
+    <profileName>Minimum Access - API Only Integrations</profileName>
+    <sessionPolicy>
+        <sessionTimeout>15</sessionTimeout>
+    </sessionPolicy>
+</ConnectedApp>
