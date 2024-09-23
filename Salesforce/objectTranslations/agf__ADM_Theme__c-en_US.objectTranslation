@@ -5,6 +5,10 @@
         <name>agf__Active__c</name>
     </fields>
     <fields>
+        <label><!-- Color --></label>
+        <name>agf__Color__c</name>
+    </fields>
+    <fields>
         <label><!-- Description --></label>
         <name>agf__Description__c</name>
     </fields>

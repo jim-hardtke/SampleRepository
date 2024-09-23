@@ -1,4 +1,4 @@
-<apex:page id="page" controller="agf.QA_AddTestCasesController" >
+<apex:page id="page"  >
 
 This page has been deprecated.
 

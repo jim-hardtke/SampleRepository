@@ -144,7 +144,7 @@
     <compactLayoutAssignment>SYSTEM</compactLayoutAssignment>
     <deploymentStatus>Deployed</deploymentStatus>
     <deprecated>false</deprecated>
-    <description>Work items committed to in a sprint</description>
+    <description>Work items forecast in a sprint</description>
     <enableActivities>false</enableActivities>
     <enableBulkApi>true</enableBulkApi>
     <enableFeeds>false</enableFeeds>
@@ -157,10 +157,10 @@
     <fields>
         <fullName>agf__Committed_Story_Points__c</fullName>
         <deprecated>false</deprecated>
-        <description>Number of story points assigned to work item when it was committed to in this sprint</description>
+        <description>Number of story points assigned to work item when it was forecast in this sprint</description>
         <externalId>false</externalId>
         <inlineHelpText>Number of story points assigned to work item when it was committed to in this sprint</inlineHelpText>
-        <label>Committed Story Points</label>
+        <label>Forecast Story Points</label>
         <precision>3</precision>
         <required>false</required>
         <scale>0</scale>
@@ -169,13 +169,55 @@
         <unique>false</unique>
     </fields>
     <fields>
+        <fullName>agf__Editor__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <label>Editor</label>
+        <referenceTo>User</referenceTo>
+        <relationshipName>Work_Forecasts</relationshipName>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>agf__Item_Status__c</fullName>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <label>Item Status</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Added</fullName>
+                    <default>false</default>
+                    <label>Added</label>
+                </value>
+                <value>
+                    <fullName>Forecasted</fullName>
+                    <default>false</default>
+                    <label>Forecasted</label>
+                </value>
+                <value>
+                    <fullName>Removed</fullName>
+                    <default>false</default>
+                    <label>Removed</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
         <fullName>agf__Sprint__c</fullName>
         <deleteConstraint>SetNull</deleteConstraint>
         <deprecated>false</deprecated>
         <externalId>false</externalId>
         <label>Sprint</label>
         <referenceTo>agf__ADM_Sprint__c</referenceTo>
-        <relationshipLabel>Work Commitments</relationshipLabel>
+        <relationshipLabel>Work Forecast</relationshipLabel>
         <relationshipName>Work_Commitments</relationshipName>
         <required>false</required>
         <trackTrending>false</trackTrending>
@@ -188,19 +230,19 @@
         <externalId>false</externalId>
         <label>Work</label>
         <referenceTo>agf__ADM_Work__c</referenceTo>
-        <relationshipLabel>Work Commitments</relationshipLabel>
+        <relationshipLabel>Work Forecast</relationshipLabel>
         <relationshipName>Work_Commitments</relationshipName>
         <required>false</required>
         <trackTrending>false</trackTrending>
         <type>Lookup</type>
     </fields>
-    <label>Work Commitment</label>
+    <label>Work Forecast</label>
     <nameField>
         <displayFormat>WC-{0000000}</displayFormat>
-        <label>Work Commitment Name</label>
+        <label>Work Forecast Name</label>
         <type>AutoNumber</type>
     </nameField>
-    <pluralLabel>Work Commitments</pluralLabel>
+    <pluralLabel>Work Forecasts</pluralLabel>
     <searchLayouts/>
     <sharingModel>ReadWrite</sharingModel>
     <visibility>Public</visibility>

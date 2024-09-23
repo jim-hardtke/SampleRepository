@@ -1,4 +1,4 @@
-<apex:page controller="agf.QA_MassEditTCController">
+<apex:page >
 
 This page has been deprecated.
 

@@ -55,6 +55,10 @@
         <name>agf__Upsert_Key__c</name>
     </fields>
     <fields>
+        <label><!-- Work Items Remaining --></label>
+        <name>agf__Work_Items_Remaining__c</name>
+    </fields>
+    <fields>
         <label><!-- Work --></label>
         <name>agf__Work__c</name>
         <relationshipLabel><!-- Burndown Items --></relationshipLabel>

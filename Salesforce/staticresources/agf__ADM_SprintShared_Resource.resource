@@ -1,4 +1,4 @@
-window.ADM_SprintShared_Resource = (function() {
+(function(win) {
 
     var isWorkItemVisible = function(work, filters) {
         var workItemVisible = true;
@@ -354,7 +354,7 @@ window.ADM_SprintShared_Resource = (function() {
             }
             else{
                 sprintData[currentNode.replace(nameSpace, '')] = sprintData[currentNode];
-                for(innerNode in sprintData[currentNode]){
+                for(const innerNode in sprintData[currentNode]){
                     sprintData[currentNode] = serializeSprintDataForNamespace(sprintData[currentNode],innerNode,nameSpace);
                 }
             }
@@ -490,7 +490,7 @@ window.ADM_SprintShared_Resource = (function() {
 
 	}
 
-    return {
+    const ADM_SprintShared_Resource =  {
         isWorkItemVisible: isWorkItemVisible,
         isString: isString,
         isObj: isObj,
@@ -518,5 +518,10 @@ window.ADM_SprintShared_Resource = (function() {
         makeColumnStatusObj: makeColumnStatusObj,
         serializeSprintDataForNamespace:serializeSprintDataForNamespace
     }
-
-}());
+console.log('ADM_SprintShared_Resource win: ', win);
+    win.ADM_SprintShared_Resource = ADM_SprintShared_Resource;
+    console.log('ADM_SprintShared_Resource ADM_SprintShared_Resource: ', ADM_SprintShared_Resource);
+    console.log('ADM_SprintShared_Resource ADM_SprintShared_Resource.isWorkItemVisible: ', ADM_SprintShared_Resource.isWorkItemVisible);
+    console.log('ADM_SprintShared_Resource win.ADM_SprintShared_Resource: ', win.ADM_SprintShared_Resource);
+    console.log('ADM_SprintShared_Resource win.ADM_SprintShared_Resource.isWorkItemVisible: ', win.ADM_SprintShared_Resource.isWorkItemVisible);
+})(window);

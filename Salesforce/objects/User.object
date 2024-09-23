@@ -290,6 +290,16 @@ API user - This will be used to identify all API users in GUS</description>
         </valueSet>
     </fields>
     <fields>
+        <fullName>agf__Initials__c</fullName>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <formula>Left(FirstName, 1) + Left(LastName, 1)</formula>
+        <label>Initials</label>
+        <required>false</required>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
         <fullName>agf__Notification_Level__c</fullName>
         <deprecated>false</deprecated>
         <externalId>false</externalId>

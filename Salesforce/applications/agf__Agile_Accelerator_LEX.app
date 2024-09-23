@@ -26,7 +26,7 @@
     <tabs>agf__Work_Manager</tabs>
     <tabs>agf__ADM_Sprint__c</tabs>
     <tabs>agf__ADM_Scrum_Team__c</tabs>
-    <tabs>agf__ADM_Kanban_Board</tabs>
+    <tabs>agf__admBoardKanban</tabs>
     <tabs>agf__ADM_Product_Tag__c</tabs>
     <tabs>agf__ADM_Epic__c</tabs>
     <tabs>agf__ADM_Theme__c</tabs>

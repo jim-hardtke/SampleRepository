@@ -1,3 +1,3 @@
-<apex:page controller="agf.QA_GenerateAnnotationsController">
+<apex:page >
 	This page has been deprecated.
 </apex:page>

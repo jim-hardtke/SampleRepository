@@ -1,5 +1,6 @@
-<apex:page controller="agf.QA_AddTCtoUSController">
+<apex:page >
 
 This page has been deprecated.
 
-</apex:page>
+
+</apex:page>

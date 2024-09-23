@@ -1,4 +1,4 @@
-<apex:page standardController="agf__QA_Test_Plan__c" extensions="agf.QA_TreeLibrary" showHeader="false" sidebar="false">
+<apex:page standardController="agf__QA_Test_Plan__c"  showHeader="false" sidebar="false">
 
 This page has been deprecated.
 

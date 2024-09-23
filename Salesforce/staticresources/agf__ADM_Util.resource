@@ -217,4 +217,4 @@ window.ADM_Util = (function() {
         callApexMethod: callApexMethod,
         serializeSprintDataForNamespace: serializeSprintDataForNamespace
     };
-}());
+})();

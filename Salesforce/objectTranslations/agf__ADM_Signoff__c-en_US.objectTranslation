@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fields>
+        <label><!-- Actual Approver --></label>
+        <name>agf__Actual_Approver__c</name>
+        <relationshipLabel><!-- Signoffs (Actual Approver) --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Approval Comments Available --></label>
+        <name>agf__Approval_Comments_Available__c</name>
+    </fields>
+    <fields>
+        <help><!-- Approver Role from Application Approver record --></help>
+        <label><!-- Approver Role --></label>
+        <name>agf__Approver_Role__c</name>
+    </fields>
+    <fields>
+        <label><!-- Approver --></label>
+        <name>agf__Approver__c</name>
+        <relationshipLabel><!-- Signoffs (Approver) --></relationshipLabel>
+    </fields>
+    <fields>
+        <help><!-- Describe the cost of granting the exception in terms of customer impact, staff impact or additional risk which may be introduced as a result. --></help>
+        <label><!-- Exception Cost --></label>
+        <name>agf__Exception_Cost__c</name>
+    </fields>
+    <fields>
+        <help><!-- Describe the exception for which this approval is being requested. Explain how it deviates from standard procedures. --></help>
+        <label><!-- Exception Request --></label>
+        <name>agf__Exception_Request__c</name>
+    </fields>
+    <fields>
+        <help><!-- Enter this Signoff record&apos;s Application Approver. --></help>
+        <label><!-- Release Approver --></label>
+        <name>agf__Release_Approver__c</name>
+        <relationshipLabel><!-- Signoffs --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Release --></label>
+        <name>agf__Release__c</name>
+        <relationshipLabel><!-- Signoffs --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Signoff Comments --></label>
+        <name>agf__Signoff_Comments__c</name>
+    </fields>
+    <fields>
+        <label><!-- checked --></label>
+        <name>agf__checked__c</name>
+    </fields>
+    <fields>
+        <help><!-- eRelease Request this Signoff record is approving. Cannot specify both Release and eRelease Request. --></help>
+        <label><!-- eRelease Request --></label>
+        <name>agf__eRelease_Request__c</name>
+        <relationshipLabel><!-- Signoffs --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- is Locked --></label>
+        <name>agf__is_Locked__c</name>
+    </fields>
+    <validationRules>
+        <errorMessage><!-- The Approver must be an Application Approver of the Application to which  this Signoff record&apos;s Release is related. --></errorMessage>
+        <name>agf__Approver_must_be_Applications_Approver</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Either Release must be specified or eRelease Request must be specified, but both cannot be entered. --></errorMessage>
+        <name>agf__Either_Release_or_eRelease_Request</name>
+    </validationRules>
+</CustomObjectTranslation>

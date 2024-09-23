@@ -24,6 +24,7 @@
 
 </apex:form> 
 
+<c:QA_TestExecutionReport sobjectID="{!agf__ADM_Work__c.id}" rendered="{!agf__ADM_Work__c.RecordType.Name = 'User Story'}" /> 
 
 <c:ADM_ChatterButton id="chatterButton" workID="{!agf__ADM_Work__c.id}" />  
 

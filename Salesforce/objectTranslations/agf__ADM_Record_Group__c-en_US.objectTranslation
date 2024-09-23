@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fields>
+        <label><!-- Group Color --></label>
+        <name>agf__Group_Color__c</name>
+    </fields>
+    <fields>
+        <label><!-- Parent Record Id --></label>
+        <name>agf__Parent_Record_Id__c</name>
+    </fields>
+    <fields>
+        <label><!-- Record Order --></label>
+        <name>agf__Record_Order__c</name>
+    </fields>
+</CustomObjectTranslation>

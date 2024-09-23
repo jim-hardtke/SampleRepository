@@ -171,6 +171,35 @@
         <type>Checkbox</type>
     </fields>
     <fields>
+        <fullName>agf__Board_Preference__c</fullName>
+        <deprecated>false</deprecated>
+        <description>This field defines if team follows Sprints or Kanban</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Use this field to indicate if your team uses Sprint or Kanban. For Scrumban users, this field is used to indicate which board (Sprint or Kanban) is currently active and in use. For ex: Setting this field to Sprint will activate your work status mappings for the Sprint Board so that when a work card is moved across columns, the Status of that work is also changed accordingly. It will not update your Kanban Board if you choose Sprint and vice versa.</inlineHelpText>
+        <label>Board Preference</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Sprint</fullName>
+                    <default>true</default>
+                    <label>Sprint</label>
+                </value>
+                <value>
+                    <fullName>Kanban</fullName>
+                    <default>false</default>
+                    <label>Kanban</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
         <fullName>agf__Business_Hours__c</fullName>
         <deleteConstraint>SetNull</deleteConstraint>
         <deprecated>false</deprecated>
@@ -1760,6 +1789,17 @@ Valid IDs will be rendered into links to Chatter Groups.</inlineHelpText>
         <description>Used to create Program teams or Programs/Workgroups</description>
         <label>Program Team</label>
         <picklistValues>
+            <picklist>agf__Board_Preference__c</picklist>
+            <values>
+                <fullName>Kanban</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Sprint</fullName>
+                <default>true</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
             <picklist>agf__Cloud__c</picklist>
             <values>
                 <fullName>Analytics</fullName>
@@ -2124,6 +2164,17 @@ Valid IDs will be rendered into links to Chatter Groups.</inlineHelpText>
         <active>true</active>
         <description>Used to create teams of type scrum team</description>
         <label>Scrum Team</label>
+        <picklistValues>
+            <picklist>agf__Board_Preference__c</picklist>
+            <values>
+                <fullName>Kanban</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Sprint</fullName>
+                <default>true</default>
+            </values>
+        </picklistValues>
         <picklistValues>
             <picklist>agf__Cloud__c</picklist>
             <values>
@@ -2602,7 +2653,7 @@ Valid IDs will be rendered into links to Chatter Groups.</inlineHelpText>
         <masterLabel>Kanban</masterLabel>
         <openType>replace</openType>
         <protected>false</protected>
-        <url>/apex/agf__adm_kanbansplash?teamid={!agf__ADM_Scrum_Team__c.Id}</url>
+        <url>/lightning/n/agf__admBoardKanban?c__teamId={!agf__ADM_Scrum_Team__c.Id}</url>
     </webLinks>
     <webLinks>
         <fullName>agf__Prioritizer</fullName>

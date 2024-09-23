@@ -981,6 +981,18 @@
         <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
+        <apexClass>agf__ADM_BoardAppController</apexClass>
+        <enabled>false</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>agf__ADM_BoardUserPreferences</apexClass>
+        <enabled>false</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>agf__ADM_BoardUserPreferencesTest</apexClass>
+        <enabled>false</enabled>
+    </classAccesses>
+    <classAccesses>
         <apexClass>agf__ADM_BookmarksExtension</apexClass>
         <enabled>true</enabled>
     </classAccesses>
@@ -1065,6 +1077,14 @@
         <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
+        <apexClass>agf__ADM_ChartUtils</apexClass>
+        <enabled>false</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>agf__ADM_ChartUtilsTests</apexClass>
+        <enabled>false</enabled>
+    </classAccesses>
+    <classAccesses>
         <apexClass>agf__ADM_Chatter</apexClass>
         <enabled>true</enabled>
     </classAccesses>
@@ -1131,6 +1151,10 @@
     <classAccesses>
         <apexClass>agf__ADM_ColumnStatusAssignment</apexClass>
         <enabled>true</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>agf__ADM_ColumnStatusAssignmentTest</apexClass>
+        <enabled>false</enabled>
     </classAccesses>
     <classAccesses>
         <apexClass>agf__ADM_ColumnTest</apexClass>
@@ -1211,6 +1235,10 @@
     <classAccesses>
         <apexClass>agf__ADM_CreateSubscriberActionTest</apexClass>
         <enabled>true</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>agf__ADM_CreateTeamController</apexClass>
+        <enabled>false</enabled>
     </classAccesses>
     <classAccesses>
         <apexClass>agf__ADM_DebugLogger</apexClass>
@@ -1703,6 +1731,22 @@
     <classAccesses>
         <apexClass>agf__ADM_PushTopic</apexClass>
         <enabled>true</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>agf__ADM_RecordEditController</apexClass>
+        <enabled>false</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>agf__ADM_RecordEditControllerTest</apexClass>
+        <enabled>false</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>agf__ADM_RecordGroupController</apexClass>
+        <enabled>false</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>agf__ADM_RecordGroupControllerTests</apexClass>
+        <enabled>false</enabled>
     </classAccesses>
     <classAccesses>
         <apexClass>agf__ADM_RecordType</apexClass>
@@ -2289,6 +2333,14 @@
         <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
+        <apexClass>agf__ADM_VirtualField</apexClass>
+        <enabled>false</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>agf__ADM_VirtualFieldTest</apexClass>
+        <enabled>false</enabled>
+    </classAccesses>
+    <classAccesses>
         <apexClass>agf__ADM_WallController</apexClass>
         <enabled>true</enabled>
     </classAccesses>
@@ -2459,6 +2511,14 @@
     <classAccesses>
         <apexClass>agf__ADM_WorkLookupControllerTests</apexClass>
         <enabled>true</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>agf__ADM_WorkManagerController</apexClass>
+        <enabled>false</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>agf__ADM_WorkManagerControllerTests</apexClass>
+        <enabled>false</enabled>
     </classAccesses>
     <classAccesses>
         <apexClass>agf__ADM_WorkObject</apexClass>
@@ -2774,146 +2834,6 @@
     </classAccesses>
     <classAccesses>
         <apexClass>agf__PPM_PortfolioScheduledJobTest</apexClass>
-        <enabled>true</enabled>
-    </classAccesses>
-    <classAccesses>
-        <apexClass>agf__QA_AddTCtoUSController</apexClass>
-        <enabled>true</enabled>
-    </classAccesses>
-    <classAccesses>
-        <apexClass>agf__QA_AddTCtoUSControllerTests</apexClass>
-        <enabled>true</enabled>
-    </classAccesses>
-    <classAccesses>
-        <apexClass>agf__QA_AddTEtoUSExtension</apexClass>
-        <enabled>true</enabled>
-    </classAccesses>
-    <classAccesses>
-        <apexClass>agf__QA_AddTEtoUSExtensionTests</apexClass>
-        <enabled>true</enabled>
-    </classAccesses>
-    <classAccesses>
-        <apexClass>agf__QA_AddTestCasesController</apexClass>
-        <enabled>true</enabled>
-    </classAccesses>
-    <classAccesses>
-        <apexClass>agf__QA_AddTestCasesControllerTests</apexClass>
-        <enabled>true</enabled>
-    </classAccesses>
-    <classAccesses>
-        <apexClass>agf__QA_CRUDTest</apexClass>
-        <enabled>true</enabled>
-    </classAccesses>
-    <classAccesses>
-        <apexClass>agf__QA_ExecutionBugTests</apexClass>
-        <enabled>true</enabled>
-    </classAccesses>
-    <classAccesses>
-        <apexClass>agf__QA_GenerateAnnotationsController</apexClass>
-        <enabled>true</enabled>
-    </classAccesses>
-    <classAccesses>
-        <apexClass>agf__QA_GenerateAnnotationsControllerTest</apexClass>
-        <enabled>true</enabled>
-    </classAccesses>
-    <classAccesses>
-        <apexClass>agf__QA_MassEditTCController</apexClass>
-        <enabled>true</enabled>
-    </classAccesses>
-    <classAccesses>
-        <apexClass>agf__QA_MassEditTCControllerTests</apexClass>
-        <enabled>true</enabled>
-    </classAccesses>
-    <classAccesses>
-        <apexClass>agf__QA_PendingExecutionsController</apexClass>
-        <enabled>true</enabled>
-    </classAccesses>
-    <classAccesses>
-        <apexClass>agf__QA_PendingExecutionsControllerTests</apexClass>
-        <enabled>true</enabled>
-    </classAccesses>
-    <classAccesses>
-        <apexClass>agf__QA_TCBugsDetailController</apexClass>
-        <enabled>true</enabled>
-    </classAccesses>
-    <classAccesses>
-        <apexClass>agf__QA_TCBugsDetailControllerTests</apexClass>
-        <enabled>true</enabled>
-    </classAccesses>
-    <classAccesses>
-        <apexClass>agf__QA_TEBugDetailController</apexClass>
-        <enabled>true</enabled>
-    </classAccesses>
-    <classAccesses>
-        <apexClass>agf__QA_TEBugDetailControllerTests</apexClass>
-        <enabled>true</enabled>
-    </classAccesses>
-    <classAccesses>
-        <apexClass>agf__QA_TEDetailTCSectionController</apexClass>
-        <enabled>true</enabled>
-    </classAccesses>
-    <classAccesses>
-        <apexClass>agf__QA_TEDetailUSSectionController</apexClass>
-        <enabled>true</enabled>
-    </classAccesses>
-    <classAccesses>
-        <apexClass>agf__QA_TEReportExtension</apexClass>
-        <enabled>true</enabled>
-    </classAccesses>
-    <classAccesses>
-        <apexClass>agf__QA_TPAddDefault</apexClass>
-        <enabled>true</enabled>
-    </classAccesses>
-    <classAccesses>
-        <apexClass>agf__QA_TPDetails</apexClass>
-        <enabled>true</enabled>
-    </classAccesses>
-    <classAccesses>
-        <apexClass>agf__QA_TPDetailsTests</apexClass>
-        <enabled>true</enabled>
-    </classAccesses>
-    <classAccesses>
-        <apexClass>agf__QA_TPQuestionDetails</apexClass>
-        <enabled>true</enabled>
-    </classAccesses>
-    <classAccesses>
-        <apexClass>agf__QA_TPQuestionDetailsTests</apexClass>
-        <enabled>true</enabled>
-    </classAccesses>
-    <classAccesses>
-        <apexClass>agf__QA_TPUserStoryListExtension</apexClass>
-        <enabled>true</enabled>
-    </classAccesses>
-    <classAccesses>
-        <apexClass>agf__QA_TestCaseLibraryTest</apexClass>
-        <enabled>true</enabled>
-    </classAccesses>
-    <classAccesses>
-        <apexClass>agf__QA_TestExecutionTriggersTest</apexClass>
-        <enabled>true</enabled>
-    </classAccesses>
-    <classAccesses>
-        <apexClass>agf__QA_TreeLibrary</apexClass>
-        <enabled>true</enabled>
-    </classAccesses>
-    <classAccesses>
-        <apexClass>agf__QA_TreeLibraryStatic</apexClass>
-        <enabled>true</enabled>
-    </classAccesses>
-    <classAccesses>
-        <apexClass>agf__QA_TreeLibraryTest</apexClass>
-        <enabled>true</enabled>
-    </classAccesses>
-    <classAccesses>
-        <apexClass>agf__QA_TreeTestUtils</apexClass>
-        <enabled>true</enabled>
-    </classAccesses>
-    <classAccesses>
-        <apexClass>agf__QA_addUStoTPExtension</apexClass>
-        <enabled>true</enabled>
-    </classAccesses>
-    <classAccesses>
-        <apexClass>agf__QA_addUStoTPExtensionTest</apexClass>
         <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
@@ -12176,6 +12096,11 @@
     </fieldPermissions>
     <fieldPermissions>
         <editable>false</editable>
+        <field>User.agf__Initials__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
         <field>User.agf__Notification_Level__c</field>
         <readable>false</readable>
     </fieldPermissions>
@@ -12551,6 +12476,21 @@
     </fieldPermissions>
     <fieldPermissions>
         <editable>false</editable>
+        <field>agf__ADM_Board_User_Preferences__c.agf__Filters__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>agf__ADM_Board_User_Preferences__c.agf__User_Filter__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>agf__ADM_Board_User_Preferences__c.agf__User__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
         <field>agf__ADM_Bookmark__c.agf__Sort_Order__c</field>
         <readable>false</readable>
     </fieldPermissions>
@@ -12632,6 +12572,11 @@
     <fieldPermissions>
         <editable>false</editable>
         <field>agf__ADM_Burndown_Item__c.agf__Upsert_Key__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>agf__ADM_Burndown_Item__c.agf__Work_Items_Remaining__c</field>
         <readable>false</readable>
     </fieldPermissions>
     <fieldPermissions>
@@ -14526,6 +14471,31 @@
     </fieldPermissions>
     <fieldPermissions>
         <editable>false</editable>
+        <field>agf__ADM_Feature__c.agf__Definition__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>agf__ADM_Feature__c.agf__Description__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>agf__ADM_Feature__c.agf__Enabled__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>agf__ADM_Feature__c.agf__Scrum_Team__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>agf__ADM_Feature__c.agf__Title__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
         <field>agf__ADM_Frequency__c.agf__Order__c</field>
         <readable>false</readable>
     </fieldPermissions>
@@ -14862,6 +14832,31 @@
     <fieldPermissions>
         <editable>false</editable>
         <field>agf__ADM_Product_Tag__c.agf__Use_for_Automated_Tools__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>agf__ADM_Record_Group_Item__c.agf__Record_Group__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>agf__ADM_Record_Group_Item__c.agf__Record_Id__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>agf__ADM_Record_Group__c.agf__Group_Color__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>agf__ADM_Record_Group__c.agf__Parent_Record_Id__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>agf__ADM_Record_Group__c.agf__Record_Order__c</field>
         <readable>false</readable>
     </fieldPermissions>
     <fieldPermissions>
@@ -15851,6 +15846,11 @@
     </fieldPermissions>
     <fieldPermissions>
         <editable>false</editable>
+        <field>agf__ADM_Scrum_Team__c.agf__Board_Preference__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
         <field>agf__ADM_Scrum_Team__c.agf__Business_Hours__c</field>
         <readable>false</readable>
     </fieldPermissions>
@@ -16307,6 +16307,61 @@
     <fieldPermissions>
         <editable>false</editable>
         <field>agf__ADM_Severity__c.agf__Order__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>agf__ADM_Signoff__c.agf__Actual_Approver__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>agf__ADM_Signoff__c.agf__Approval_Comments_Available__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>agf__ADM_Signoff__c.agf__Approver_Role__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>agf__ADM_Signoff__c.agf__Approver__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>agf__ADM_Signoff__c.agf__Exception_Cost__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>agf__ADM_Signoff__c.agf__Exception_Request__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>agf__ADM_Signoff__c.agf__Release_Approver__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>agf__ADM_Signoff__c.agf__Signoff_Comments__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>agf__ADM_Signoff__c.agf__checked__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>agf__ADM_Signoff__c.agf__eRelease_Request__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>agf__ADM_Signoff__c.agf__is_Locked__c</field>
         <readable>false</readable>
     </fieldPermissions>
     <fieldPermissions>
@@ -16871,6 +16926,11 @@
     </fieldPermissions>
     <fieldPermissions>
         <editable>false</editable>
+        <field>agf__ADM_Theme__c.agf__Color__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
         <field>agf__ADM_Theme__c.agf__Description__c</field>
         <readable>false</readable>
     </fieldPermissions>
@@ -17126,6 +17186,16 @@
     </fieldPermissions>
     <fieldPermissions>
         <editable>false</editable>
+        <field>agf__ADM_Work_Commitment__c.agf__Editor__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>agf__ADM_Work_Commitment__c.agf__Item_Status__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
         <field>agf__ADM_Work_Commitment__c.agf__Sprint__c</field>
         <readable>false</readable>
     </fieldPermissions>
@@ -17147,6 +17217,56 @@
     <fieldPermissions>
         <editable>false</editable>
         <field>agf__ADM_Work_History__c.agf__Work__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>agf__ADM_Work_Manager_User_Preferences__c.agf__Columns__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>agf__ADM_Work_Manager_User_Preferences__c.agf__Filters__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>agf__ADM_Work_Manager_User_Preferences__c.agf__Reorder_Field__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>agf__ADM_Work_Manager_User_Preferences__c.agf__Show_Velocity_Line__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>agf__ADM_Work_Manager_User_Preferences__c.agf__Sort_Column__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>agf__ADM_Work_Manager_User_Preferences__c.agf__Sort_Direction__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>agf__ADM_Work_Manager_User_Preferences__c.agf__Sort_Field__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>agf__ADM_Work_Manager_User_Preferences__c.agf__User__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>agf__ADM_Work_Manager_User_Preferences__c.agf__Velocity_Line_Limit__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>agf__ADM_Work_Manager_User_Preferences__c.agf__Visible_Columns__c</field>
         <readable>false</readable>
     </fieldPermissions>
     <fieldPermissions>
@@ -21305,6 +21425,10 @@
         <enabled>true</enabled>
     </pageAccesses>
     <pageAccesses>
+        <apexPage>agf__ADM_WorkEditLex</apexPage>
+        <enabled>false</enabled>
+    </pageAccesses>
+    <pageAccesses>
         <apexPage>agf__ADM_WorkEditRedirect</apexPage>
         <enabled>true</enabled>
     </pageAccesses>
@@ -21872,6 +21996,10 @@
     <tabVisibilities>
         <tab>agf__Work_Manager</tab>
         <visibility>DefaultOn</visibility>
+    </tabVisibilities>
+    <tabVisibilities>
+        <tab>agf__admBoardKanban</tab>
+        <visibility>Hidden</visibility>
     </tabVisibilities>
     <tabVisibilities>
         <tab>agf__eRelease_Request__c</tab>
