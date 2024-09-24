@@ -1,3 +1,0 @@
-<apex:page standardController="agf__QA_Test_Plan__c" extensions="agf.QA_addUStoTPExtension" id="page">
-    This page has been deprecated.
-</apex:page>

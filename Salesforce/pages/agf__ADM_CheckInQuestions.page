@@ -1,3 +1,0 @@
-<apex:page standardController="agf__ADM_Work__c" showHeader="false" sidebar="false" showQuickActionVfHeader="false">
-	This page is deprecated
-</apex:page>
