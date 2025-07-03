@@ -9,7 +9,7 @@ CREATE OR REPLACE PACKAGE xxceoe_wls_auction_utils_pkg AS
   * @rep:compatibility S
   * @rep:category BUSINESS_ENTITY ONT
   */
--- *************************************************************************
+-- **************************************************************************
 -- Program Name       : xxceoe_wls_auction_utils_pkg.pks
 -- Purpose            : Utility package used by wirleless auction page
 -- History:
