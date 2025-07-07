@@ -1,8 +1,8 @@
-# $Header: XXCEONT_FREEZE_CARTON_EVENT_wfx.ildt 12.0 2024/10/03 21:50:26 sysadmin  $
+# $Header: XXHR_FREEZE_CARTON_EVENT_wfx.ildt 12.0 2024/10/03 21:50:26 sysadmin  $
 
 # dbdrv: sql fnd patch/115/sql afdlfsub.sql none none none sqlplus \
 # dbdrv:  &phase=dat+10 checkfile:~PROD:~PATH:~FILE &un_apps &pw_apps xxcei \
-# dbdrv:  patch/115/xml/US XXCEONT_FREEZE_CARTON_EVENT_wfx.ildt 12.0 FND \
+# dbdrv:  patch/115/xml/US XXHR_FREEZE_CARTON_EVENT_wfx.ildt 12.0 FND \
 # dbdrv:  FNDDLFLD NORMAL ARU2ILDT 50
 LANGUAGE = "US"
 LDRCONFIG = "wfirep.lct 120.7"
