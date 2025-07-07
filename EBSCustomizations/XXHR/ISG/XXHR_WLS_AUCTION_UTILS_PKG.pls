@@ -1,5 +1,5 @@
-CREATE OR REPLACE PACKAGE xxceoe_wls_auction_utils_pkg AS
-  /* $Header: xxceoe_wls_auction_utils_pkg.pls */
+CREATE OR REPLACE PACKAGE xxhr_wls_auction_utils_pkg AS
+  /* $Header: xxhr_wls_auction_utils_pkg.pls */
   /*#
   * Cox Carton Details Publish Package
   * @rep:scope public
@@ -10,7 +10,7 @@ CREATE OR REPLACE PACKAGE xxceoe_wls_auction_utils_pkg AS
   * @rep:category BUSINESS_ENTITY ONT
   */
 -- **************************************************************************
--- Program Name       : xxceoe_wls_auction_utils_pkg.pks
+-- Program Name       : xxhr_wls_auction_utils_pkg.pks
 -- Purpose            : Utility package used by wirleless auction page
 -- History:
 ---------------------------------------------------------------------------
@@ -23,22 +23,6 @@ TYPE serial_number_rec_type  IS RECORD (serial_number VARCHAR2(30));
 
 TYPE serial_number_tbl_type  IS TABLE OF serial_number_rec_type;
 
-TYPE item_number_rec_type IS RECORD (item_number  VARCHAR2(30),
-                                     item_quantity NUMBER,
-									 serial_array serial_number_tbl_type);
-
-TYPE item_number_tbl_type  IS TABLE OF item_number_rec_type;
-
-TYPE xxceoe_wls_carton_rec_type IS RECORD
-       (carton_id varchar2(50), 
-		oem varchar2(100), 
-		device_count number, 
-		carton_action varchar2(30),
-        item_details item_number_tbl_type);
-
-TYPE xxceoe_wls_carton_tbl_type  IS TABLE OF xxceoe_wls_carton_rec_type;
-
-  
 
 PROCEDURE process_freeze (p_auc_tbl xxceoe_wls_auc_tbl_type,
                           x_return_status out varchar2,
@@ -46,7 +30,7 @@ PROCEDURE process_freeze (p_auc_tbl xxceoe_wls_auc_tbl_type,
 
 PROCEDURE extract_carton_dtls (p_carton_id in varchar2,
                                p_action in varchar2,
-							   x_carton_tbl out xxceoe_wls_carton_tbl_type,
+							   x_carton_tbl out serial_number_tbl_type,
 							   x_ret_code out varchar2,
 							   x_ret_message out varchar2)
  /*#
@@ -92,4 +76,4 @@ PROCEDURE create_order (p_auc_tbl in xxceoe_wls_auc_tbl_type,
                         x_return_status out varchar2,
 						x_return_message out varchar2);
 
-END xxceoe_wls_auction_utils_pkg;
+END xxhr_wls_auction_utils_pkg;
