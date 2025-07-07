@@ -30,7 +30,7 @@ Expansion="50"/>
   <WF_EVENTS>
     <VERSION>1.0</VERSION>
     <GUID>#NEW</GUID>
-    <NAME>oracle.apps.pos.supplier.approvesupplier</NAME>
+    <NAME>oracle.apps.pos.supplier.approvesupplier2</NAME>
     <TYPE>EVENT</TYPE>
     <STATUS>ENABLED</STATUS>
     <GENERATE_FUNCTION/>
