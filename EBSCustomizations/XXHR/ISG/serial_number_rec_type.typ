@@ -1,0 +1,1 @@
+create or replace TYPE      serial_number_rec_type FORCE AS OBJECT ( serial_number VARCHAR2(30)) 

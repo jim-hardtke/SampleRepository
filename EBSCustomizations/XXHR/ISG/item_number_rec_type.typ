@@ -1,0 +1,1 @@
+create or replace TYPE      item_number_rec_type FORCE AS OBJECT ( item_number  VARCHAR2(30), item_quantity NUMBER, serial_array serial_number_tbl_type) 

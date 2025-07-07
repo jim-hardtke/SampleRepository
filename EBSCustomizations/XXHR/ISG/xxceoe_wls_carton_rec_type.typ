@@ -1,0 +1,1 @@
+create or replace TYPE      xxceoe_wls_carton_rec_type FORCE AS OBJECT ( carton_id varchar2(50), oem varchar2(100), device_count number, carton_action varchar2(30), item_details item_number_tbl_type) 
