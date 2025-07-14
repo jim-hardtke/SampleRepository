@@ -3,11 +3,11 @@ CREATE OR REPLACE PACKAGE xx_test_soagway AS
 /*#
 * This package returns different data from Financials (GL).
 * @rep:scope public
-* @rep:product gl
+* @rep:product FND
 * @rep:displayname xx_test_soagway
 * @rep:lifecycle active
 * @rep:compatibility S
-* @rep:category BUSINESS_ENTITY GL_ACCOUNT_COMBINATION
+* @rep:category BUSINESS_ENTITY FND_APPS_CTX
 */
 
 /*#
