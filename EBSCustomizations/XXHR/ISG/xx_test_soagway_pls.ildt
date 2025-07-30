@@ -265,7 +265,7 @@ END IREP_OBJECT
 # -- End Entity Definitions --
 
 BEGIN IREP_OBJECT "PLSQL:XX_TEST_SOAGWAY" "C"
-  OWNER = "sysadmin"
+  OWNER = "apps"
   API_NAME = "XX_TEST_SOAGWAY"
   OBJ_TYPE = "PLSQL"
   PRODUCT = "GL"
