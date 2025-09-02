@@ -1,7 +1,7 @@
 # $Header: xx_test_soagway_pls.ildt 12.0 2025/07/11 07:27:39 sysadmin  $
 
-# dbdrv: sql fnd patch/115/sql afdlfsub.sql none none none sqlplus \
-# dbdrv:  &phase=dat+10 checkfile:~PROD:~PATH:~FILE &un_apps &pw_apps gl \
+# dbdrv: sql fnd patch/115/sql xx_test_soagway.pls none none none sqlplus \
+# dbdrv:  &phase=dat+10 checkfile:~PROD:~PATH:~FILE &un_apps &pw_apps fnd \
 # dbdrv:  patch/115/sql xx_test_soagway_pls.ildt 12.0 FND FNDDLFLD NORMAL \
 # dbdrv:  ARU2ILDT 50
 LANGUAGE = "US"
@@ -265,7 +265,7 @@ END IREP_OBJECT
 # -- End Entity Definitions --
 
 BEGIN IREP_OBJECT "PLSQL:XX_TEST_SOAGWAY" "C"
-  OWNER = "sysadmin"
+  OWNER = "apps"
   API_NAME = "XX_TEST_SOAGWAY"
   OBJ_TYPE = "PLSQL"
   PRODUCT = "GL"
