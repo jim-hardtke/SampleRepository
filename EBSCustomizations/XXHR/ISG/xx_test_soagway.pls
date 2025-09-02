@@ -8,6 +8,8 @@ CREATE OR REPLACE PACKAGE xx_test_soagway AS
 * @rep:lifecycle active
 * @rep:compatibility S
 * @rep:category BUSINESS_ENTITY GL_ACCOUNT_COMBINATION
+* @flexdeploy-rep:alias XX_TEST_SOAGWAY
+* @flexdeploy-rep:type XX_TEST_SOAGWAY
 */
 
 /*#
