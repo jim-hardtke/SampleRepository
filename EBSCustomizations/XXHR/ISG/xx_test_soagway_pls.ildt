@@ -4,8 +4,6 @@
 # dbdrv:  &phase=dat+10 checkfile:~PROD:~PATH:~FILE &un_apps &pw_apps fnd \
 # dbdrv:  patch/115/sql xx_test_soagway_pls.ildt 12.0 FND FNDDLFLD NORMAL \
 # dbdrv:  ARU2ILDT 50
-* @flexdeploy-rep:alias XX_TEST_SOAGWAY
-* @flexdeploy-rep:type XX_TEST_SOAGWAY
 
 LANGUAGE = "US"
 LDRCONFIG = "wfirep.lct 120.7"
