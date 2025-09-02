@@ -19,7 +19,7 @@ CREATE OR REPLACE PACKAGE xxceoe_wls_auction_utils_pkg AS
 ---------------------------------------------------------------------------
 -- Date          Author                      Description
 ---------------------------------------------------------------------------
--- 09/19/2024   Pavan Nagaraju             Initial version
+-- 09/19/2024   Pavan Nagaraju             Initial versions
 -- ************************************************************************* 
 
 TYPE serial_number_rec_type  IS RECORD (serial_number VARCHAR2(30));
