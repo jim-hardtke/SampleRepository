@@ -9,8 +9,7 @@ CREATE OR REPLACE PACKAGE xxceoe_wls_auction_utils_pkg AS
   * @rep:compatibility S
   * @rep:category BUSINESS_ENTITY ONT
   * @flexdeploy-rep:alias XXCEOE_WLS_AUCTION_UTILS_PKG
-  * @flexdeploy-rep:type XXCEOE_WLS_AUCTION_UTILS_PKG
-
+  * @flexdeploy-rep:type REST
   */
 -- *************************************************************************
 -- Program Name       : xxceoe_wls_auction_utils_pkg.pks
